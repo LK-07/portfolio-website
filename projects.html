@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1c4a7c004c.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Projects Hub</title>
+</head>
+<body>
+    <header class="topbar">
+        <div class="logo-con">
+            <span class="logo">
+                <a href="index.html"><img src="images/LOGO.png" alt="logo"></a>
+            </span>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+       <div class="navbar">
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="iconwrap">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+       </div>
+    </header>
+    <div class="projects-hub">
+       <div>
+        <p>Welcome! to my</p>
+        <h1>Projects Hub</h1>
+        <p>Delight Your Eyes with A Selection Of My Finest Works</p>
+       </div>
+    </div>
+    <!-- <div class="collection">
+        <div class="filter">
+            <p style="color:white;">All</p>
+            <p>Web Design</p>
+            <p>Poster Design</p>
+            <p>Mobile Design</p>
+            <p>Card Design</p>
+        </div>
+        <div>2</div>
+        <div>3</div>
+    </div> -->
+<div class="warpper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+  <input class="radio" id="five" name="group" type="radio">
+  <div class="tabs">
+  <label class="tab" id="one-tab" for="one">All</label>
+  <label class="tab" id="two-tab" for="two">Web Design</label>
+  <label class="tab" id="three-tab" for="three">Poster Design</label>
+  <label class="tab" id="four-tab" for="four">Mobile Design</label>
+  <label class="tab" id="five-tab" for="five">Card Design</label>
+    </div>
+  <div class="panels">
+  <div class="panel" id="one-panel">
+      <div class="panel-row">
+        <div class="row-card">
+            <img src="images/Poster Design.png" alt="poster">
+        </div>
+        <div class="row-card">
+            <img src="images/Web Design.png" alt="website">
+        </div>
+        <div class="row-card">
+            <img src="images/Card Design.png" alt="business-card">
+        </div>
+        <div class="row-card">
+            <img src="images/Mobile Design.png" alt="mobile">
+        </div>
+      </div>
+  </div>
+  <div class="panel" id="two-panel">
+    <div class="panel-row">
+        <div class="row-card">
+            <img src="images/Web Design.png" alt="website">
+        </div>
+      </div>
+  </div>
+  <div class="panel" id="three-panel">
+    <div class="panel-row">
+        <div class="row-card">
+            <img src="images/Poster Design.png" alt="poster">
+        </div>
+      </div>
+  </div>
+  <div class="panel" id="four-panel">
+    <div class="panel-row">
+        <div class="row-card">
+            <img src="images/Mobile Design.png" alt="mobile">
+        </div>
+      </div>
+  </div>
+  <div class="panel" id="five-panel">
+    <div class="panel-row">
+        <div class="row-card">
+            <img src="images/Card Design.png" alt="business-card">
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
+
+    <div class="footer">
+        <div class="footer-text">©2022 All Rights Reserved</div>
+        <div class="footer-text">Created by: Anthony Oshadume</div>
+    </div>
+    <script>
+        const btn = document.getElementById("menu-btn")
+        document.querySelector(".menu-btn").addEventListener("click", () => document.querySelector(".navbar").classList.toggle("show"))
+    </script>
+</body>
+</html>

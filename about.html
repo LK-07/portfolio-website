@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1c4a7c004c.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+</head>
+<body>
+    <header class="topbar">
+        <div class="logo-con">
+            <span class="logo">
+                <a href="index.html"><img src="images/LOGO.png" alt="logo"></a>
+            </span>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+       <div class="navbar">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html"class="active">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="iconwrap">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+       </div>
+    </header>
+    <div class="aboutbg">
+        <div class="headerbg">
+        <!-- <img src="images/unsplash_l5Tzv1alcps.png" alt=""> -->
+        <p>About Me</p>
+         </div>
+         <div class="owner-info">
+            <div class="personal">
+                <img src="images/abt pic.png" alt="">
+                <p>About Me</p>
+                <span class="text">My name is Anthony Oshadume-Ayo a graphic designer, UI/UX designer and web designer with an experience of 2+ years and about 15+ completed projects. I enjoy creating simple and innovative designs which test and improve my creative and thinking capacity.</span>
+            </div>
+            <div class="careerobj">
+                <h1>Career Objectives:</h1>
+                <div class="objectivelist">
+                    <ul>
+                        <li>To be able to create quality and satisfactory works and projects according to personal and clientele interests.</li>
+                        <li>To express to full capacity my creative and aesthetic views in my works.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="careersum">
+                <h1>Career Summary:</h1>
+                <div class="Summarylist">
+                    <ul>
+                        <li>Full understanding of graphic tools like Photoshop, Illustrator and Corel Draw. </li>
+                        <li>Sound knowledge in creating responsive wireframes designs from desktop to mobile on Figma.</li>
+                        <li>Well trained in conversion of design wireframes to interactive websites using HTML5 and CSS3.</li>
+                        <li>Good listening and communication skills for easy understanding and intepretation of client ideas and needs.</li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-text">©2022 All Rights Reserved</div>
+        <div class="footer-text">Created by: Anthony Oshadume</div>
+    </div>
+    <script>
+        const btn = document.getElementById("menu-btn")
+        document.querySelector(".menu-btn").addEventListener("click", () => document.querySelector(".navbar").classList.toggle("show"))
+    </script>
+</body>
+</html>
